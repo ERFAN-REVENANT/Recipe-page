@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "youngserif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body{
+    margin-top: 100px;
+    background-color: #f3e5d8;
+    font-family: "outfit";
+    color: #5a5653;
+}
+.card{
+    background-color: #ffffff;
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 30px;
+}
+.pic{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.pic img{
+    border-radius: 15px;
+}
+.header{
+    color: #844631;
+    font-family: "youngserif";
+    font-size: 35px;
+}
+#top{
+    color: #2f2e2c;
+}
+.header-info{
+    margin-bottom: 20px;
+}
+.box{
+    background-color: #fff7fc;
+    padding: 20px;
+    border-radius: 15px;
+}
+.box p{
+    color: #b6547b;
+    font-weight: bold;
+    margin: 0;
+}   
+.enter{
+    font-weight: bold;
+}
+
+
+.nutrition-table {
+    width: 100%;
+}
+
+.nutrition-table td {
+    color: #844631;
+    font-weight: 100;
+    padding: 5px 0; /* Adjusted padding */
+}
+
+.nutrition-table .value {
+    color: #844631;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nutrition-table hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 5px 0; /* Adjusted margin */
+}
+
+table {
+    width: 100%;
+}
